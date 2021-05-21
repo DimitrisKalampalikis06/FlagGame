@@ -221,8 +221,8 @@ def start():
     lbl6.destroy()
     btn5.destroy()
     btn18.destroy()
-    root.geometry('50x50')
-    lbl4 = Label(root, text='3', fg='white', bg='black', font=('Tahoma', 25))
+
+    lbl4 = Label(root, text='3', fg='white', bg='black', font=('Tahoma', 50))
     lbl4.pack()
 
     pen.speed(200)
@@ -275,7 +275,6 @@ def start():
 
     time.sleep(1)
     lbl4.destroy()
-    root.geometry('420x200')
 
     def help():
         global helps
@@ -323,16 +322,16 @@ def start():
     global btn2
     global btn6
 
-    lbl2 = Label(root, text='Flag', fg='white', bg='black', font=('Tahoma', 25))
+    lbl2 = Label(root, text='Flag', fg='white', bg='black', font=('Tahoma', 30), width=33)
     lbl2.grid(column=0, row=0, columnspan=2)
-    lbl3 = Label(root, text='Type the country:', fg='white', bg='black', font=('Tahoma', 25))
+    lbl3 = Label(root, text='Type the country:', fg='white', bg='black', font=('Tahoma', 30))
     lbl3.grid(row=1, column=0)
-    entr = Entry(root)
+    entr = Entry(root, font=('Tahoma', 20))
     entr.grid(row=1, column=1)
     flag()
-    btn2 = Button(root, text='Click me', command=flaggo2, fg='white', bg='black', font=('Tahoma', 25))
+    btn2 = Button(root, text='Click me', command=flaggo2, fg='white', bg='black', font=('Tahoma', 30))
     btn2.grid(row=2, column=0)
-    btn6 = Button(root, text='HELP', command=help, fg='white', bg='black', font=('Tahoma', 25))
+    btn6 = Button(root, text='HELP', command=help, fg='white', bg='black', font=('Tahoma', 30))
     btn6.grid(row=2, column=1)
 
 
@@ -352,8 +351,8 @@ def start2():
     lbl6.destroy()
     btn5.destroy()
     btn18.destroy()
-    root.geometry('50x50')
-    lbl4 = Label(root, text='3', fg='white', bg='black', font=('Tahoma', 25))
+
+    lbl4 = Label(root, text='3', fg='white', bg='black', font=('Tahoma', 50))
     lbl4.pack()
 
     pen.speed(200)
@@ -406,7 +405,6 @@ def start2():
 
     time.sleep(1)
     lbl4.destroy()
-    root.geometry('420x100')
 
     def help2():
         global helps
@@ -454,16 +452,16 @@ def start2():
     global btn2
     global btn6
 
-    lbl2 = Label(root, text='Flag', fg='white', bg='black', font=('Tahoma', 25))
+    lbl2 = Label(root, text='Flag', fg='white', bg='black', font=('Tahoma', 30), width=33)
     lbl2.grid(column=0, row=0, columnspan=2)
-    lbl3 = Label(root, text='Type the country:', fg='white', bg='black', font=('Tahoma', 25))
+    lbl3 = Label(root, text='Type the country:', fg='white', bg='black', font=('Tahoma', 30))
     lbl3.grid(row=1, column=0)
-    entr = Entry(root)
+    entr = Entry(root, font=('Tahoma', 20))
     entr.grid(row=1, column=1)
     flag2()
-    btn2 = Button(root, text='Click me', command=flaggo4, fg='white', bg='black', font=('Tahoma', 25))
+    btn2 = Button(root, text='Click me', command=flaggo4, fg='white', bg='black', font=('Tahoma', 30))
     btn2.grid(row=2, column=0)
-    btn6 = Button(root, text='HELP', command=help2, fg='white', bg='black', font=('Tahoma', 25))
+    btn6 = Button(root, text='HELP', command=help2, fg='white', bg='black', font=('Tahoma', 30))
     btn6.grid(row=2, column=1)
 
 
@@ -483,8 +481,8 @@ def start3():
     lbl6.destroy()
     btn5.destroy()
     btn18.destroy()
-    root.geometry('50x50')
-    lbl4 = Label(root, text='3', fg='white', bg='black', font=('Tahoma', 25))
+
+    lbl4 = Label(root, text='3', fg='white', bg='black', font=('Tahoma', 50))
     lbl4.pack()
 
     pen.speed(200)
@@ -537,7 +535,6 @@ def start3():
 
     time.sleep(1)
     lbl4.destroy()
-    root.geometry('420x200')
 
     def help3():
         global helps
@@ -585,16 +582,16 @@ def start3():
     global btn2
     global btn6
 
-    lbl2 = Label(root, text='Flag', fg='white', bg='black', font=('Tahoma', 25))
+    lbl2 = Label(root, text='Flag', fg='white', bg='black', font=('Tahoma', 30), width=33)
     lbl2.grid(column=0, row=0, columnspan=2)
-    lbl3 = Label(root, text='Type the country:', fg='white', bg='black', font=('Tahoma', 25))
+    lbl3 = Label(root, text='Type the country:', fg='white', bg='black', font=('Tahoma', 30))
     lbl3.grid(row=1, column=0)
-    entr = Entry(root)
+    entr = Entry(root, font=('Tahoma', 20))
     entr.grid(row=1, column=1)
     flag3()
-    btn2 = Button(root, text='Click me', command=flaggo6, fg='white', bg='black', font=('Tahoma', 25))
+    btn2 = Button(root, text='Click me', command=flaggo6, fg='white', bg='black', font=('Tahoma', 30))
     btn2.grid(row=2, column=0)
-    btn6 = Button(root, text='HELP', command=help3, fg='white', bg='black', font=('Tahoma', 25))
+    btn6 = Button(root, text='HELP', command=help3, fg='white', bg='black', font=('Tahoma', 30))
     btn6.grid(row=2, column=1)
 
 
@@ -614,8 +611,8 @@ def start4():
     lbl6.destroy()
     btn5.destroy()
     btn18.destroy()
-    root.geometry('50x50')
-    lbl4 = Label(root, text='3', fg='white', bg='black', font=('Tahoma', 25))
+
+    lbl4 = Label(root, text='3', fg='white', bg='black', font=('Tahoma', 50))
     lbl4.pack()
 
     pen.speed(200)
@@ -668,7 +665,6 @@ def start4():
 
     time.sleep(1)
     lbl4.destroy()
-    root.geometry('420x200')
 
     def help4():
         global helps
@@ -716,16 +712,16 @@ def start4():
     global btn2
     global btn6
 
-    lbl2 = Label(root, text='Flag', fg='white', bg='black', font=('Tahoma', 25))
+    lbl2 = Label(root, text='Flag', fg='white', bg='black', font=('Tahoma', 30), width=33)
     lbl2.grid(column=0, row=0, columnspan=2)
-    lbl3 = Label(root, text='Type the country:', fg='white', bg='black', font=('Tahoma', 25))
+    lbl3 = Label(root, text='Type the country:', fg='white', bg='black', font=('Tahoma', 30))
     lbl3.grid(row=1, column=0)
-    entr = Entry(root)
+    entr = Entry(root, font=('Tahoma', 20))
     entr.grid(row=1, column=1)
     flag4()
-    btn2 = Button(root, text='Click me', command=flaggo8, fg='white', bg='black', font=('Tahoma', 25))
+    btn2 = Button(root, text='Click me', command=flaggo8, fg='white', bg='black', font=('Tahoma', 30))
     btn2.grid(row=2, column=0)
-    btn6 = Button(root, text='HELP', command=help4, fg='white', bg='black', font=('Tahoma', 25))
+    btn6 = Button(root, text='HELP', command=help4, fg='white', bg='black', font=('Tahoma', 30))
     btn6.grid(row=2, column=1)
 
 
@@ -745,8 +741,8 @@ def start5():
     lbl6.destroy()
     btn5.destroy()
     btn18.destroy()
-    root.geometry('50x50')
-    lbl4 = Label(root, text='3', fg='white', bg='black', font=('Tahoma', 25))
+
+    lbl4 = Label(root, text='3', fg='white', bg='black', font=('Tahoma', 50))
     lbl4.pack()
 
     pen.speed(200)
@@ -799,7 +795,6 @@ def start5():
 
     time.sleep(1)
     lbl4.destroy()
-    root.geometry('420x200')
 
     def help5():
         global helps
@@ -847,16 +842,16 @@ def start5():
     global btn2
     global btn6
 
-    lbl2 = Label(root, text='Flag', fg='white', bg='black', font=('Tahoma', 25))
+    lbl2 = Label(root, text='Flag', fg='white', bg='black', font=('Tahoma', 30), width=33)
     lbl2.grid(column=0, row=0, columnspan=2)
-    lbl3 = Label(root, text='Type the country:', fg='white', bg='black', font=('Tahoma', 25))
+    lbl3 = Label(root, text='Type the country:', fg='white', bg='black', font=('Tahoma', 30))
     lbl3.grid(row=1, column=0)
-    entr = Entry(root)
+    entr = Entry(root, font=('Tahoma', 20))
     entr.grid(row=1, column=1)
     flag5()
-    btn2 = Button(root, text='Click me', command=flaggo10, fg='white', bg='black', font=('Tahoma', 25))
+    btn2 = Button(root, text='Click me', command=flaggo10, fg='white', bg='black', font=('Tahoma', 30))
     btn2.grid(row=2, column=0)
-    btn6 = Button(root, text='HELP', command=help5, fg='white', bg='black', font=('Tahoma', 25))
+    btn6 = Button(root, text='HELP', command=help5, fg='white', bg='black', font=('Tahoma', 30))
     btn6.grid(row=2, column=1)
 
 
@@ -876,8 +871,8 @@ def start6():
     lbl6.destroy()
     btn5.destroy()
     btn18.destroy()
-    root.geometry('50x50')
-    lbl4 = Label(root, text='3', fg='white', bg='black', font=('Tahoma', 25))
+
+    lbl4 = Label(root, text='3', fg='white', bg='black', font=('Tahoma', 50))
     lbl4.pack()
 
     pen.speed(200)
@@ -930,7 +925,6 @@ def start6():
 
     time.sleep(1)
     lbl4.destroy()
-    root.geometry('420x200')
 
     def help6():
         global helps
@@ -978,16 +972,16 @@ def start6():
     global btn2
     global btn6
 
-    lbl2 = Label(root, text='Flag', fg='white', bg='black', font=('Tahoma', 25))
+    lbl2 = Label(root, text='Flag', fg='white', bg='black', font=('Tahoma', 30), width=33)
     lbl2.grid(column=0, row=0, columnspan=2)
-    lbl3 = Label(root, text='Type the country:', fg='white', bg='black', font=('Tahoma', 25))
+    lbl3 = Label(root, text='Type the country:', fg='white', bg='black', font=('Tahoma', 30))
     lbl3.grid(row=1, column=0)
-    entr = Entry(root)
+    entr = Entry(root, font=('Tahoma', 20))
     entr.grid(row=1, column=1)
     flag6()
-    btn2 = Button(root, text='Click me', command=flaggo12, fg='white', bg='black', font=('Tahoma', 25))
+    btn2 = Button(root, text='Click me', command=flaggo12, fg='white', bg='black', font=('Tahoma', 30))
     btn2.grid(row=2, column=0)
-    btn6 = Button(root, text='HELP', command=help6, fg='white', bg='black', font=('Tahoma', 25))
+    btn6 = Button(root, text='HELP', command=help6, fg='white', bg='black', font=('Tahoma', 30))
     btn6.grid(row=2, column=1)
 
 
@@ -2904,7 +2898,7 @@ def buy4():
 def info():
     global k
     k = 3
-    root.geometry('50x50')
+
     global lbl16
     global lbl17
     global btn17
@@ -2924,7 +2918,7 @@ def info():
     pen.goto(100, 0)
     pen.pd()
 
-    lbl4 = Label(root, text='3', fg='white', bg='black', font=('Tahoma', 25))
+    lbl4 = Label(root, text='3', fg='white', bg='black', font=('Tahoma', 50))
     lbl4.pack()
 
     pen.speed(200)
@@ -3026,7 +3020,6 @@ def info():
         pen.fd(200)
         pen.lt(90)
 
-    root.geometry('750x400')
     lbl16 = Label(root, text='INFO', fg='white', bg='black', font=('Tahoma', 25))
     lbl16.pack()
     lbl17 = Label(root, text='Both Quiz 1 and Quiz 2 have 10 european countries,\nQuiz 2 is a bit harder than Quiz '
@@ -3041,7 +3034,7 @@ def info():
 def store():
     global k
     k = 2
-    root.geometry('50x50')
+
     pen.up()
     pen.reset()
     pen.pensize(5)
@@ -3057,7 +3050,7 @@ def store():
     lbl6.destroy()
     btn5.destroy()
     btn18.destroy()
-    lbl4 = Label(root, text='3', fg='white', bg='black', font=('Tahoma', 25))
+    lbl4 = Label(root, text='3', fg='white', bg='black', font=('Tahoma', 50))
     lbl4.pack()
 
     pen.speed(200)
@@ -3199,8 +3192,8 @@ def store():
     global btn10
     global btn11
     global btn12
-    root.geometry('500x400')
-    lbl8 = Label(root, text='Store', fg='white', bg='black', font=('Tahoma', 25))
+
+    lbl8 = Label(root, text='Store', fg='white', bg='black', font=('Tahoma', 25), width=40, justify='center')
     lbl8.grid(row=0, column=0, columnspan=3, padx=10)
     lbl9 = Label(root, text='1 Help', fg='white', bg='black', font=('Tahoma', 25))
     lbl9.grid(row=1, column=0, padx=10)
@@ -3223,13 +3216,13 @@ def store():
     lbl14 = Label(root, text=coins, fg='white', bg='black', font=('Tahoma', 25), relief='sunken')
     lbl14.grid(row=5, column=1, padx=10)
     btn12 = Button(root, text='Return', command=welcome, fg='white', bg='black', font=('Tahoma', 25))
-    btn12.grid(row=1, column=3, rowspan=4, padx=20)
+    btn12.grid(row=1, column=2, rowspan=4, padx=10)
 
 
 def welcome():
     global k
     pen.reset()
-    root.geometry('400x300')
+
     if k == 0:
         lbl.destroy()
         btn.destroy()
@@ -3337,47 +3330,46 @@ def welcome():
     quiz = tk.StringVar(root)
     quiz.set('')
     quiz.trace("w", button)
-    lbl5 = tk.Label(root, text='Choose quiz', fg='white', bg='black', font=('Tahoma', 25))
+    lbl5 = tk.Label(root, text='Choose quiz', fg='white', bg='black', font=('Tahoma', 35), width=28)
     lbl5.grid(row=0, column=0, columnspan=3)
-    rd = tk.Radiobutton(root, text='Quiz 1', value='Quiz 1', variable=quiz, fg='white', bg='black', font=('Tahoma', 25))
+    rd = tk.Radiobutton(root, text='Quiz 1', value='Quiz 1', variable=quiz, fg='white', bg='black', font=('Tahoma', 35))
     rd.grid(row=1, column=0)
     rd2 = tk.Radiobutton(root, text='Quiz 2', value='Quiz 2', variable=quiz, fg='white', bg='black',
-                         font=('Tahoma', 25))
+                         font=('Tahoma', 35))
     rd2.grid(row=1, column=1)
     rd3 = tk.Radiobutton(root, text='Quiz 3', value='Quiz 3', variable=quiz, fg='white', bg='black',
-                         font=('Tahoma', 25))
+                         font=('Tahoma', 35))
     rd3.grid(row=1, column=2)
     rd4 = tk.Radiobutton(root, text='Quiz 4', value='Quiz 4', variable=quiz, fg='white', bg='black',
-                         font=('Tahoma', 25))
+                         font=('Tahoma', 35))
     rd4.grid(row=2, column=0)
     rd5 = tk.Radiobutton(root, text='Quiz 5', value='Quiz 5', variable=quiz, fg='white', bg='black',
-                         font=('Tahoma', 25))
+                         font=('Tahoma', 35))
     rd5.grid(row=2, column=1)
     rd6 = tk.Radiobutton(root, text='Quiz 6', value='Quiz 6', variable=quiz, fg='white', bg='black',
-                         font=('Tahoma', 25))
+                         font=('Tahoma', 35))
     rd6.grid(row=2, column=2)
-    lbl6 = tk.Label(root, text='Click the quiz', fg='white', bg='black', font=('Tahoma', 25))
+    lbl6 = tk.Label(root, text='Click the quiz', fg='white', bg='black', font=('Tahoma', 35))
     lbl6.grid(row=3, column=0, columnspan=3)
-    btn5 = Button(root, text='Store', command=store, fg='white', bg='black', font=('Tahoma', 25))
+    btn5 = Button(root, text='Store', command=store, fg='white', bg='black', font=('Tahoma', 35))
     btn5.grid(row=4, column=0)
-    btn18 = Button(root, text='INFO', command=info, fg='white', bg='black', font=('Tahoma', 25))
+    btn18 = Button(root, text='INFO', command=info, fg='white', bg='black', font=('Tahoma', 35))
     btn18.grid(row=4, column=2)
 
 
 root = Tk()
 
-root.geometry('200x200')
-
 root.title('Flag Game')
+root.geometry('750x400')
 root.configure(background='black')
 
-lbl = tk.Label(root, text='Flag Game', fg='white', bg='black', font=('Tahoma', 25))
+lbl = tk.Label(root, text='Flag Game', fg='white', bg='black', font=('Tahoma', 50))
 lbl.pack(padx=10)
 
-btn = tk.Button(root, text='Start', command=welcome, fg='white', bg='black', font=('Tahoma', 25))
+btn = tk.Button(root, text='Start', command=welcome, fg='white', bg='black', font=('Tahoma', 50))
 btn.pack(padx=10)
 
-btn0 = Button(root, text='Exit', command=quit, fg='white', bg='black', font=('Tahoma', 25))
+btn0 = Button(root, text='Exit', command=quit, fg='white', bg='black', font=('Tahoma', 50))
 btn0.pack(padx=10)
 
 quiz = tk.StringVar()
